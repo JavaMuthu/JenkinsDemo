@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: JenkinsDemoApplication
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: muthukumar.m
+Implementation-Vendor-Id: com.changepond.jenkins
+Build-Jdk: 1.8.0_221
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/com.changepond.jenkins
+Created-By: Maven Integration for Eclipse
+
