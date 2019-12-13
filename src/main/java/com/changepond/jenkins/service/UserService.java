@@ -21,5 +21,7 @@ public interface UserService {
 	public Optional<User> getById(Long id);
 	
 	public void delete(User user);
+	
+	public void deleteAll();
 
 }
