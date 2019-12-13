@@ -3,6 +3,7 @@
  */
 package com.changepond.jenkins.serviceimpl;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -30,6 +31,10 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public User addOrUpdate(User user) {
+		user.setCreatedBy("admin");
+		user.setCreatedAt(new Date());
+		user.setUpdatedBy("admin");
+		user.setUpdatedAt(new Date());
 		return userRepository.save(user);
 	}
 

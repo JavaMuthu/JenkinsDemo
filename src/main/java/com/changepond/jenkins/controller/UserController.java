@@ -53,14 +53,18 @@ public class UserController {
 	 * @return
 	 */
 	@GetMapping(RestAPICommonConstants.REST_API_USER_BASE_URL + "list")
-	public ResponseEntity<List<User>> listAll() {
+	public List<User> listAll() {
 		logger.info("List all the user information {}");
-		List<User> list = userService.listAll();
-		if (list.isEmpty()) {
-			return new ResponseEntity<>(list, HttpStatus.NO_CONTENT);
-		}
-		return new ResponseEntity<List<User>>(list, HttpStatus.OK);
+		return userService.listAll();
 	}
+
+	/*
+	 * public ResponseEntity<List<User>> listAll() {
+	 * logger.info("List all the user information {}"); List<User> list =
+	 * userService.listAll(); if (list.isEmpty()) { return new
+	 * ResponseEntity<>(list, HttpStatus.NO_CONTENT); } return new
+	 * ResponseEntity<List<User>>(list, HttpStatus.OK); }
+	 */
 
 	/**
 	 * Create new user information
