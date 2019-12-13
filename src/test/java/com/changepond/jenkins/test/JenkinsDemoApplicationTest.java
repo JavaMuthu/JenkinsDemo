@@ -42,11 +42,6 @@ public class JenkinsDemoApplicationTest {
 	}
 
 	@Test
-	public void contextLoads() {
-
-	}
-
-	@Test
 	public void getAllUsers() {
 		HttpHeaders headers = new HttpHeaders();
 		HttpEntity<String> entity = new HttpEntity<String>(null, headers);
