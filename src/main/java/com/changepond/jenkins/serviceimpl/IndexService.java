@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.changepond.jenkins.service;
+package com.changepond.jenkins.serviceimpl;
 
 import org.springframework.stereotype.Service;
 
