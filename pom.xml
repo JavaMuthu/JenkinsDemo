@@ -23,9 +23,9 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<spring-javaformat.version>0.0.17</spring-javaformat.version>
+		<!-- <spring-javaformat.version>0.0.17</spring-javaformat.version>
 		<nohttp-checkstyle.version>0.0.3.RELEASE</nohttp-checkstyle.version>
-		<main.basedir>${basedir}</main.basedir>
+		<main.basedir>${basedir}</main.basedir> -->
 	</properties>
 
 	<dependencies>
@@ -99,7 +99,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-checkstyle-plugin</artifactId>
 				<version>3.0.0</version>
@@ -160,7 +160,7 @@
 				<groupId>io.spring.javaformat</groupId>
 				<artifactId>spring-javaformat-maven-plugin</artifactId>
 				<version>${spring-javaformat.version}</version>
-			</plugin>
+			</plugin> -->
 
 		</plugins>
 	</build>
