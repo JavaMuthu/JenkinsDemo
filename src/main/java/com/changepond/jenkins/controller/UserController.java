@@ -39,7 +39,7 @@ public class UserController {
 
 	@Autowired
 	UserService userService;
-
+	
 	@GetMapping(RestAPICommonConstants.REST_API_USER_BASE_URL + "sayHello")
 	public String sayHello() {
 		logger.debug(

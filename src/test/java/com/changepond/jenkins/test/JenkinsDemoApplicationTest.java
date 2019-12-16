@@ -76,5 +76,7 @@ public class JenkinsDemoApplicationTest {
 		assertNotNull(postResponse);
 		assertNotNull(postResponse.getBody());
 	}
+	
+	
 
 }
